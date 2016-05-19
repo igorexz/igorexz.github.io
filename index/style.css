@@ -54,10 +54,10 @@ body{
 .grid:before {
   content: "";
   position: absolute;
-  width: 500%;
-  height: 500%;
-  top: -250%;
-  left: -250%;
+  width: 2000%;
+  height: 2000%;
+  top: -1000%;
+  left: -1000%;
   z-index: -1;
   background: url("grid.png") 0 0 repeat;
   animation-name: gridanim;
