@@ -1,18 +1,18 @@
 @keyframes bganim{
 	0%{
-		background: #FF0000;
+		background: #CC5C5C;
 	}
 	25%{
 		background: #92289E;
 	}
 	50%{
-		background: #0077FF;
+		background: #6886B0;
 	}
 	75%{
 		 background: #1EA84F;
 	}
 	100%{
-		background: #FF0000;
+		background: #CC5C5C;
 	}
 }
 @keyframes gridanim{
