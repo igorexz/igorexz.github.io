@@ -15,7 +15,7 @@ body{
 	float: right;
 	display: block;
 }
-@media(min-width:768px){
+@media(max-width:768px){
 	.header-nav{
 		display: none;
 		text-align: center;
@@ -23,7 +23,7 @@ body{
 		width: 100%;
 	}
 }
-@media(min-width:992px){
+@media(min-width:768px){
 	.header-nav{
 		display: block !important;
 	}
