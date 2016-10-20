@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Courier; /* Имя шрифта */
+    src: url(fonts/cour.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Germanica; /* Имя шрифта */
+    src: url(fonts/germanica.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+	background: #000;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	padding: 15px;
+}
+#mywidget{
+	display: block;
+	margin: 0 auto;
+}
+#bgvid{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+#skipButton{
+	font-family: Courier;
+	font-size: 25px;
+	text-align: center;
+	display: inline-block;
+	margin: 15px auto;
+	padding: 25px;
+	background: #000;
+	color: #fff;
+}
+#skipButton:hover{
+	cursor: url("images/cursor.cur"), progress !important;
+}
+#skipButton:active{
+	color: #000;
+	background: #fff;
+}
+.copyright{
+	font-size: 12px;
+	color: #fff;
+	background: #000;
+	font-family: Courier;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.skull{
+	margin: 5px;
+}
+.skull:hover{
+	cursor: url("images/cursor.cur"), progress !important;
+	filter: invert(80%);
+}
