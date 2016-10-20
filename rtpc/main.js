@@ -28,7 +28,7 @@ var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "
 
 var playRandomTrack = function(){
 	var widget = SC.Widget(document.getElementById("mywidget"));
-	var userID = userIDs[random.integer(0, userIDs.length)];
+	var userID = userIDs[random.integer(0, userIDs.length - 1)];
 	var tracksRand = random.integer(0, 18);
 	    widget.load("http://soundcloud.com/" + userID, {
 	      show_artwork: true,
