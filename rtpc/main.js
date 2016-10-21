@@ -18,8 +18,23 @@ $$e$P"    $b     d$`    "$$c$F
           `^^^^^^^`
        MADE BY IGOREXZ
 */
-var random = new Random();
+var randomJs = new RandomJs();
 
+var result = randomJs
+  .apikey('c4f85e0d-ed60-4bfb-818c-84916a293e00') // your apikey here
+  .method('generateStrings')
+  .params({n:4,length:11})
+  .post(function(xhr, stream, body) {
+    console.log('==START==')
+    console.log('==xhr==')
+    console.log(xhr)
+    console.log('==stream==')
+    console.log(stream)
+    console.log('==body==')
+    console.log(body)
+    console.log('==END==')
+  });
+console.log(result);
 var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "teamsesh", "christravis",
  "yung_goth", "rareakuma", "imrealugly", "yung-meep", "gera_pkhat", "tvethodman", "stereoryze", "slimgucci", "kuwagata_1", "white_punk",
  "i61", "surrenderdorothymusic", "blackkray", "blackksmurf", "xavierwulf", "pouya-kevin", "velial-squad", "night_lovell", "yung-lean-doer",
