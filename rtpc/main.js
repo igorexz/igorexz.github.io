@@ -25,14 +25,7 @@ var result = randomJs
   .method('generateStrings')
   .params({n:4,length:11})
   .post(function(xhr, stream, body) {
-    console.log('==START==')
-    console.log('==xhr==')
-    console.log(xhr)
-    console.log('==stream==')
-    console.log(stream)
-    console.log('==body==')
-    console.log(body)
-    console.log('==END==')
+    console.log(body);
   });
 console.log(result);
 var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "teamsesh", "christravis",
