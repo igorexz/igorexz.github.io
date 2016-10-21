@@ -18,16 +18,8 @@ $$e$P"    $b     d$`    "$$c$F
           `^^^^^^^`
        MADE BY IGOREXZ
 */
-var randomJs = new RandomJs();
+var random = new Random();
 
-var result = randomJs
-  .apikey('c4f85e0d-ed60-4bfb-818c-84916a293e00') // your apikey here
-  .method('generateStrings')
-  .params({n:4,length:11})
-  .post(function(xhr, stream, body) {
-    console.log(body);
-  });
-console.log(result);
 var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "teamsesh", "christravis",
  "yung_goth", "rareakuma", "imrealugly", "yung-meep", "gera_pkhat", "tvethodman", "stereoryze", "slimgucci", "kuwagata_1", "white_punk",
  "i61", "surrenderdorothymusic", "blackkray", "blackksmurf", "xavierwulf", "pouya-kevin", "velial-squad", "night_lovell", "yung-lean-doer",
@@ -36,8 +28,8 @@ var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "
 
 var playRandomTrack = function(){
 	var widget = SC.Widget(document.getElementById("mywidget"));
-	var userID = userIDs[0];
-	var tracksRand = 0;
+	var userID = userIDs[random.integer(0, userIDs.length - 1)];
+	var tracksRand = random.integer(0, 18);
 	    widget.load("http://soundcloud.com/" + userID, {
 	      show_artwork: true,
 	      auto_play: true,
