@@ -21,10 +21,11 @@ $$e$P"    $b     d$`    "$$c$F
 var random = new Random();
 
 var userIDs = ["g59", "jahseh-onfroy", "ramirezdg", "geekeybeats", "j-chetta", "teamsesh", "christravis",
- "yung_goth", "rareakuma", "imrealugly", "yung-meep", "gera_pkhat", "tvethodman", "stereoryze", "slimgucci", "kuwagata_1", "white_punk",
+ "yung_goth", "rareakuma", "imrealugly", "yung-meep", "tvethodman", "stereoryze", "slimgucci", "kuwagata_1", "white_punk",
  "i61", "surrenderdorothymusic", "blackkray", "blackksmurf", "xavierwulf", "pouya-kevin", "velial-squad", "night_lovell", "yung-lean-doer",
  "jeembx", "rickybobby-slumpgod", "lil_peep", "itsoktocry", "bladee1000", "aceofpentacles-1", "frozengangbeatz", "southgardendd", "clammyclams",
- "yungsherman", "ikonamsk", "nesatyi", "greafer", "k-i-z-a-r-u", "lunartalk", "the-virus-uk", "sirsyringe", "omenxiii"];
+ "yungsherman", "ikonamsk", "nesatyi", "greafer", "lunartalk", "the-virus-uk", "sirsyringe", "omenxiii", "kuwagata_1", 
+ "eurtapatea", "thundergodghostie", "678carti", "killstation", "jakecooleymusic", "lilrose044", "mnogoznaal", "drip-133"];
 
 var playRandomTrack = function(){
 	var widget = SC.Widget(document.getElementById("mywidget"));
