@@ -1,0 +1,51 @@
+body{
+	background: #F5F5F5;
+}
+#bh{
+	max-width: 800px;
+	width: 95%;
+	margin: 0 auto;
+}
+#bh-pattern{
+	margin: 10px auto;
+	font-family: Open Sans;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	padding: 15px;
+}
+#bh-pattern span{
+	font-family: Open Sans;
+	font-weight: 700;
+	line-height: 35px;
+}
+#bh-input{
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	margin: 10px auto;
+	padding: 15px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 0.25s;
+}
+#bh-input:focus{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border: none;
+	outline: none;
+}
+#bh-submit{
+	padding: 15px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	font-family: Open Sans;
+	font-weight: 900;
+	background: #fff;
+	border: none;
+	border-radius: 2px;
+	transition: 0.25s;
+}
+#bh-submit:hover{
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
